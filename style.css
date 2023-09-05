@@ -139,3 +139,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.imgBorder {
+  border: solid hsl(263, 61%, 66%);
+}
