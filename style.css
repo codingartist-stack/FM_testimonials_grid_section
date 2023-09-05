@@ -79,6 +79,7 @@ h6 {
 body {
   background: var(--clr-neutral200);
   font-family: var(--ff-primary);
+  padding: 2rem;
 }
 
 .gridContainer {
@@ -87,8 +88,21 @@ body {
   gap: 1rem;
 }
 
+.flexGroup {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.quote {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+}
+
 .testimonial {
-  background: lightgreen;
+  display: grid;
+  gap: 1rem;
   border-radius: 15px;
   padding: 2rem;
 }
@@ -113,6 +127,15 @@ body {
   color: var(--clr-neutral100);
 }
 
+.textNeutral400 {
+  color: var(--clr-secondary400);
+}
+
 .opacityChange {
   opacity: 0.5;
+}
+
+.imgContainer {
+  border-radius: 50%;
+  overflow: hidden;
 }
