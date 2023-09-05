@@ -75,3 +75,44 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+body {
+  background: var(--clr-neutral200);
+  font-family: var(--ff-primary);
+}
+
+.gridContainer {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+
+.testimonial {
+  background: lightgreen;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.bgPrimary400 {
+  background-color: var(--clr-primary400);
+}
+
+.bgSecondary400 {
+  background-color: var(--clr-secondary400);
+}
+
+.bgNeutral100 {
+  background-color: var(--clr-neutral100);
+}
+
+.bgNeutral800 {
+  background-color: var(--clr-secondary800);
+}
+
+.textNeutral100 {
+  color: var(--clr-neutral100);
+}
+
+.opacityChange {
+  opacity: 0.5;
+}
